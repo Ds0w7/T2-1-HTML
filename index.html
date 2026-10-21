@@ -1,76 +1,135 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="El teu nom">
+    <meta name="description" content="Pàgina web sobre la pel·lícula Interstellar">
+    <meta name="date" content="2026-10-21">
     <title>Interstellar</title>
 </head>
+
 <body>
 
+    <!-- DIV 1: CAPÇALERA -->
     <div>
-        <h1>Interstellar</h1>
-        <p>Interstellar es una película de ciencia ficción dirigida por Christopher Nolan y estrenada en 2014.</p>
-    </div>
+        <h1 id="inici">Interstellar</h1>
 
-    <div>
-        <h2>Cartel de la película</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg" alt="Cartel de Interstellar" width="250">
-    </div>
-
-    <div>
-        <h2>Información general</h2>
-        <ul>
-            <li>Título: Interstellar</li>
-            <li>Director: Christopher Nolan</li>
-            <li>Año: 2014</li>
-            <li>Género: Ciencia ficción</li>
-            <li>Duración: 169 minutos</li>
-        </ul>
-    </div>
-
-    <div>
-        <h2>Sinopsis</h2>
         <p>
-            En un futuro donde la Tierra está sufriendo una crisis alimentaria,
-            un grupo de astronautas viaja a través de un agujero de gusano en busca
-            de un nuevo hogar para la humanidad.
+            Interstellar és una pel·lícula de ciència-ficció dirigida per Christopher Nolan.
+            Estrenada l'any 2014, és considerada una de les millors pel·lícules del seu gènere.
         </p>
+
+        <h2>Menú de navegació</h2>
+
+        <ul>
+            <li><a href="#actors">Actors principals</a></li>
+            <li><a href="#multimedia">Multimèdia</a></li>
+            <li>
+                <a href="https://www.imdb.com/title/tt0816692/"
+                   target="_blank">
+                    Fitxa d'Interstellar a IMDb
+                </a>
+            </li>
+        </ul>
     </div>
 
+    <!-- DIV 2: CONTINGUT PRINCIPAL -->
     <div>
-        <h2>Reparto principal</h2>
+
+        <h2>Informació general</h2>
+
+        <ul>
+            <li>Títol: Interstellar</li>
+            <li>Director: Christopher Nolan</li>
+            <li>Any: 2014</li>
+            <li>Gènere: Ciència-ficció</li>
+            <li>Durada: 169 minuts</li>
+        </ul>
+
+        <h2>Sinopsi</h2>
+
+        <p>
+            En un futur on la Terra està quedant inhabitable, un grup
+            d'astronautes emprèn una missió per trobar un nou planeta
+            on la humanitat pugui sobreviure.
+        </p>
+
+        <h2>Aspectes destacats</h2>
+
         <ol>
-            <li>Matthew McConaughey como Cooper</li>
-            <li>Anne Hathaway como Brand</li>
-          <li>Michael Caine como el Profesor Brand</li>
+            <li>Banda sonora de Hans Zimmer.</li>
+            <li>Efectes visuals premiats amb un Oscar.</li>
+            <li>Basada en conceptes de física teòrica.</li>
+            <li>Gran èxit de crítica i públic.</li>
         </ol>
+
+        <h2 id="actors">Actors principals</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Actor</th>
+                    <th>Personatge</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Matthew McConaughey</td>
+                    <td>Cooper</td>
+                </tr>
+
+                <tr>
+                    <td>Anne Hathaway</td>
+                    <td>Brand</td>
+                </tr>
+
+                <tr>
+                    <td>Jessica Chastain</td>
+                    <td>Murph</td>
+                </tr>
+
+                <tr>
+                    <td>Michael Caine</td>
+                    <td>Professor Brand</td>
+                </tr>
+            </tbody>
+        </table>
+
     </div>
 
-    <div>
-        <h2>Aspectos destacados</h2>
-        <ul>
-            <li>Efectos visuales premiados con un Óscar.</li>
-            <li>Banda sonora compuesta por Hans Zimmer.</li>
-            <li>Basada en conceptos reales de física teórica.</li>
-            <li>Considerada una de las mejores películas de ciencia ficción modernas.</li>
-        </ul>
-    </div>
+    <!-- DIV 3: MULTIMÈDIA -->
+    <div id="multimedia">
 
-    <div>
-        <h2>Curiosidades</h2>
-        <ul>
-            <li>El físico Kip Thorne colaboró como asesor científico.</li>
-            <li>La representación del agujero negro "Gargantúa" fue innovadora.</li>
-            <li>Ganó el Óscar a Mejores Efectos Visuales.</li>
-        </ul>
-    </div>
+        <h2>Galeria d'imatges</h2>
 
-    <div>
-        <h2>Valoración</h2>
-        <p>★★★★★ (5/5)</p>
-    </div>
+        <img
+            src="https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg"
+            alt="Cartell de la pel·lícula Interstellar"
+            width="300">
 
-    <div>
-        <p>© 2026 Página dedicada a la película Interstellar.</p>
+        <br><br>
+
+        <img
+            src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa"
+            alt="Imatge relacionada amb l'espai i els viatges interestel·lars"
+            width="500">
+
+        <h2>Tràiler oficial</h2>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/zSWdZVtXT7E"
+            title="Tràiler d'Interstellar"
+            allowfullscreen>
+        </iframe>
+
+        <p>
+            <a href="#inici">Tornar a l'inici</a>
+        </p>
+
     </div>
 
 </body>
