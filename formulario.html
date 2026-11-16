@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari de Registre</title>
+</head>
+<body>
+
+    <h1>Formulari de Registre Acadèmic</h1>
+
+    <form action="#" method="POST">
+
+        
+        <fieldset>
+            <legend>Dades Personals</legend>
+
+            <label for="nom">Nom i Cognoms:</label><br>
+            <input type="text" id="nom" name="nom" required><br><br>
+
+            <label for="correu">Correu electrònic:</label><br>
+            <input type="email" id="correu" name="correu" required><br><br>
+
+            <label for="contrasenya">Contrasenya:</label><br>
+            <input type="password" id="contrasenya" name="contrasenya" minlength="8"><br><br>
+
+            <label for="dataNaixement">Data de naixement:</label><br>
+            <input type="date" id="dataNaixement" name="dataNaixement"><br><br>
+
+            <label for="edat">Edat:</label><br>
+            <input type="number" id="edat" name="edat" min="16" max="99"><br><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Dades Acadèmiques i Preferències</legend>
+
+            <p>Torn d'estudi:</p>
+
+            <input type="radio" id="mati" name="torn" value="Mati">
+            <label for="mati">Matí</label><br>
+
+            <input type="radio" id="tarda" name="torn" value="Tarda">
+            <label for="tarda">Tarda</label><br><br>
+
+            <p>Mòduls matriculats:</p>
+
+            <input type="checkbox" id="llenguatges" name="moduls" value="Llenguatges de Marques">
+            <label for="llenguatges">Llenguatges de Marques</label><br>
+
+            <input type="checkbox" id="programacio" name="moduls" value="Programacio">
+            <label for="programacio">Programació</label><br>
+
+            <input type="checkbox" id="bdd" name="moduls" value="Bases de Dades">
+            <label for="bdd">Bases de Dades</label><br><br>
+
+            <label for="experiencia">Nivell d'experiència prèvia:</label><br>
+            <select id="experiencia" name="experiencia">
+                <option value="sense">Sense experiència</option>
+                <option value="basic">Bàsic</option>
+                <option value="intermedi">Intermedi</option>
+                <option value="avancat">Avançat</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Observacions i Botons</legend>
+
+            <label for="comentaris">Comentaris / Biografia:</label><br>
+            <textarea id="comentaris" name="comentaris" rows="4" cols="40"></textarea><br><br>
+
+            <input type="checkbox" id="termes" name="termes" required>
+            <label for="termes">Accepto la política de privacitat</label><br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablir">
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
